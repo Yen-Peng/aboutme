@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Yen Peng - a programmer</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="images/fav.ico">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Bellota:wght@700&family=Overpass:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+            <a href="#AboutMe" class="active">About Me</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="top-container" id="AboutMe">
+            <img class="top-cloud" src="images/bluecloud.png" alt="cloud-img">
+            <h1>I'm Yen Peng.</h1>
+            <h4>a programmer.</h4>
+            <img class="bottom-cloud" src="images/bluecloud2.png" alt="cloud-img">
+        </div>
+        <div class="middle-container">
+            <div class="profile">
+                <img class="profile-img" src="images/yenpeng.png" alt="yen peng profile picture">
+                <h2>Hello</h2>
+                <p>I am a Year 3 Computer Science student at the National University of Singapore, <br>specializing in software engineering and UI/UX design.</p>
+                <!---<a href="www.google.com">Have a look at my resume.</a>-->
+            </div>
+            <hr>
+            <div class="skills">
+                <h2>About</h2>
+                <div class="skill-row">
+                    <img class="skill-img" src="images/code.gif" alt="code-gif">
+                    <h3>Design & Development</h3>
+                    <p>I have experienced two internships that involve a chatbot mobile app development. Participating in hackathons and school projects have also allowed me to build on interesting projects that have a potential to solve a need in society. I am learning web development on the side as I aspire to become a developer and UI/UX designer.</p>
+                </div>
+                <div class="skill-row">
+                    <img class="hobby-img" src="images/hobby.png" alt="hobby-img">
+                    <h3>Hobbies & Recreation</h3>
+                    <p>I enjoy learning about web and mobile development and creating useful applications with intuitive interfaces. In my free time, you can find me stirring up small side projects, going on food trips, and engaging in toy photography.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="projects" id="Projects">
+                <h2>Projects</h2>
+                <div class="project-row">
+                    <a href="https://joannajoules6.wixsite.com/mysite"><img class="project-img" src="images/crowdsurf.png" alt="project-img"></a>
+                    <h3>CrowdSurf</h3>
+                    <p>Following the design thinking framework, CrowdSurf is a crowd checking prototype solution proposed by 4 students as part of our CS3240 Interaction Design module to enable users to check on the crowd levels of the NUS campus.</p>
+                </div>
+                
+            </div>
+            <hr>
+            <div class="contact-me" id="Contact">
+                <h2>Get In Touch</h2>
+                <p>Let's connect and embark on awesome exciting projects!</p>
+                <a class="footer-link" href="mailto:yipyenpeng@gmail.com"><img width="30" src="images/email.png" alt="email-img"></a>
+            <a class="footer-link" href="https://sg.linkedin.com/in/yyp"><img width="30" src="images/linkedin.png" alt="linkedin-img"></a>
+            <a class="footer-link" href="https://github.com/Yen-Peng"><img width="30" src="images/github.png" alt="github-img"></a>
+            </div>
+        </div>
+
+
+        <div class="bottom-container">
+            <p>© 2020 Yen Peng Yip.</p>
+            <p>Icons made by 
+                <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+                from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            </p>
+        </div>
+        <script>
+        function myFunction() {
+            var x = document.getElelmentById("myTopnav");
+            if (x.className === "topnav") {
+                x.classname += "responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        </script>
+    </body>
+</html>
